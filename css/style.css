@@ -1,0 +1,82 @@
+:root {
+  /* background */
+  --bgd-gray: #e5e5e5;
+  /* text  */
+  --txt-blue: #2196f3;
+  --txt-mostly-black: #212121;
+  --txt-black: #000000;
+  --txt-white: #ffffff;
+  --txt-dark-gray: #757575;
+  --txt-light-gray: #acacb0;
+}
+
+/* constant */
+body {
+  width: 1600px;
+}
+/* header */
+.header {
+  height: 80px;
+}
+.hdr-main-nav {
+  display: flex;
+}
+.hdr-nav {
+  display: flex;
+  align-items: center;
+}
+.links {
+  display: flex;
+}
+.link {
+  list-style-type: none;
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.hdr-logo {
+  text-decoration: none;
+}
+
+.hdr-first-logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--txt-blue);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.hdr-second-logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--txt-black);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+.hdr-link-item:hover,
+.hdr-link-item:focus {
+  color: var(--txt-blue);
+}
+.hdr-link-item {
+  color: var(--txt-mostly-black);
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  text-decoration: none;
+}
+
+.hdr-contacts {
+  display: flex;
+  list-style-type: none
+}
+
+.contact-link {
+  text-ne;
+}
