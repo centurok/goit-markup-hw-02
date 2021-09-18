@@ -74,6 +74,12 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
+.contact-link:hover,
+.contact-link:focus {
+  color: var(--txt-blue);
+}
+/* Main Studio */
 .hero-section {
   background-color: var(--bgd-very-dark-grayish-blue);
 }
@@ -154,6 +160,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--txt-dark-gray);
 }
+/* footer */
 
 .footer {
   background-color: var(--bgd-very-dark-grayish-blue);
@@ -175,9 +182,7 @@ body {
   letter-spacing: 0.03em;
 }
 .ftr-address {
-  font-style: normal;
   font-size: 14px;
-  font-weight: normal;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--txt-white);
@@ -186,8 +191,6 @@ body {
 
 .contact-link-footer {
   color: var(--txt-light-gray);
-  font-style: normal;
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -195,4 +198,44 @@ body {
 }
 .contact-ftr {
   list-style: none;
+}
+
+.contact-link-footer:focus,
+.contact-link-footer:hover {
+  color: var(--txt-blue);
+}
+/* Main Portfolio */
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background-color: var(--bgd-Light-grayish-blue);
+  border: none;
+  cursor: pointer;
+}
+.button:focus,
+.button:hover {
+  color: var(--txt-white);
+  background-color: var(--txt-blue);
+}
+
+.button-item,
+.project-item {
+  list-style: none;
+}
+
+.project-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-about {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--txt-dark-gray);
 }
