@@ -1,8 +1,8 @@
 :root {
   /* background */
-  --bgd-gray: #e5e5e5;
   --bgd-very-dark-grayish-blue: #2f303a;
-  --bgd-Light-grayish-blue: #f5f4fa;
+  --bgd-light-grayish-blue: #f5f4fa;
+  --bgd-white: #ffffff;
   /* text  */
   --txt-blue: #2196f3;
   --txt-mostly-black: #212121;
@@ -16,6 +16,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: var(--txt-mostly-black);
+  background-color: var(--bgd-white);
+  letter-spacing: 0.03;
 }
 /* header */
 
@@ -33,7 +35,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .hdr-second-logo {
@@ -42,7 +43,6 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 .link:hover,
 .link:focus {
@@ -112,14 +112,12 @@ body {
 .container-item-title {
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .container-item-text {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--txt-dark-gray);
 }
 
@@ -127,18 +125,16 @@ body {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team {
-  background-color: var(--bgd-Light-grayish-blue);
+  background-color: var(--bgd-light-grayish-blue);
 }
 
 .title-team {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .team-member {
@@ -150,14 +146,12 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  letter-spacing: 0.03em;
 }
 
 .about-member {
   font-size: 16px;
   line-height: 19px;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--txt-dark-gray);
 }
 /* footer */
@@ -166,12 +160,15 @@ body {
   background-color: var(--bgd-very-dark-grayish-blue);
 }
 
+.address {
+  font-style: normal;
+}
+
 .ftr-first-logo {
   font-family: 'Raleway', sans-serif;
   color: var(--txt-blue);
   font-size: 26px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .ftr-second-logo {
@@ -179,23 +176,14 @@ body {
   color: var(--txt-white);
   font-size: 26px;
   line-height: 31px;
-  letter-spacing: 0.03em;
 }
 .ftr-address {
   font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--txt-white);
   text-decoration: none;
 }
 
-.contact-link-footer {
-  color: var(--txt-light-gray);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-}
 .contact-ftr {
   list-style: none;
 }
@@ -207,6 +195,7 @@ body {
 /* Main Portfolio */
 
 .button {
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
